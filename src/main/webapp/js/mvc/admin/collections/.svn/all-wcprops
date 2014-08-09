@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/UX-CoE-Team/!svn/ver/2023/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/js/mvc/admin/collections
+END
+datasources.js
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/UX-CoE-Team/!svn/ver/2023/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/js/mvc/admin/collections/datasources.js
+END
+queries.js
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/UX-CoE-Team/!svn/ver/2016/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/js/mvc/admin/collections/queries.js
+END
+users.js
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/UX-CoE-Team/!svn/ver/2016/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/js/mvc/admin/collections/users.js
+END

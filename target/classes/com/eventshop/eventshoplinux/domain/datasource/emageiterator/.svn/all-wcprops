@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/UX-CoE-Team/!svn/ver/2945/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/datasource/emageiterator
+END
+STTEmageIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/UX-CoE-Team/!svn/ver/2582/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/datasource/emageiterator/STTEmageIterator.java
+END
+CSVEmageIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/UX-CoE-Team/!svn/ver/3040/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/datasource/emageiterator/CSVEmageIterator.java
+END
+CSVFieldEmageIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/UX-CoE-Team/!svn/ver/2635/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/datasource/emageiterator/CSVFieldEmageIterator.java
+END
+EmageIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/UX-CoE-Team/!svn/ver/2582/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/datasource/emageiterator/EmageIterator.java
+END
+SensorMongoDBEmageIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/UX-CoE-Team/!svn/ver/2944/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/datasource/emageiterator/SensorMongoDBEmageIterator.java
+END
+VisualEmageIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/datasource/emageiterator/VisualEmageIterator.java
+END
+KMLIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/datasource/emageiterator/KMLIterator.java
+END
+STTPointIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/datasource/emageiterator/STTPointIterator.java
+END

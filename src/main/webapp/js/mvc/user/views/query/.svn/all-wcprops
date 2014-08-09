@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/UX-CoE-Team/!svn/ver/2617/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/js/mvc/user/views/query
+END
+filterOp.js
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/UX-CoE-Team/!svn/ver/4163/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/js/mvc/user/views/query/filterOp.js
+END
+aggregationOp.js
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/UX-CoE-Team/!svn/ver/3039/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/js/mvc/user/views/query/aggregationOp.js
+END
+queryGraph.js
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/UX-CoE-Team/!svn/ver/2190/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/js/mvc/user/views/query/queryGraph.js
+END
+groupingOp.js
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/UX-CoE-Team/!svn/ver/3039/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/js/mvc/user/views/query/groupingOp.js
+END
+spatialCharOp.js
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/UX-CoE-Team/!svn/ver/2617/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/js/mvc/user/views/query/spatialCharOp.js
+END
+spatialPatternOp.js
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/UX-CoE-Team/!svn/ver/2617/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/js/mvc/user/views/query/spatialPatternOp.js
+END
+registerQuery.js
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/UX-CoE-Team/!svn/ver/2617/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/js/mvc/user/views/query/registerQuery.js
+END
+temporalCharOp.js
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/UX-CoE-Team/!svn/ver/2617/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/js/mvc/user/views/query/temporalCharOp.js
+END
+temporalPatternOp.js
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/UX-CoE-Team/!svn/ver/2617/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/js/mvc/user/views/query/temporalPatternOp.js
+END

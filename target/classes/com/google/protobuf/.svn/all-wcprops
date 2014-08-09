@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf
+END
+Service.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/Service.java
+END
+RpcCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/RpcCallback.java
+END
+LazyStringArrayList.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/LazyStringArrayList.java
+END
+Descriptors.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/Descriptors.java
+END
+ExtensionRegistry.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/ExtensionRegistry.java
+END
+MessageLiteOrBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/MessageLiteOrBuilder.java
+END
+CodedInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/CodedInputStream.java
+END
+WireFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/WireFormat.java
+END
+InvalidProtocolBufferException.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/InvalidProtocolBufferException.java
+END
+ExtensionRegistryLite.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/ExtensionRegistryLite.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/Message.java
+END
+SmallSortedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/SmallSortedMap.java
+END
+ByteString.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/ByteString.java
+END
+UninitializedMessageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/UninitializedMessageException.java
+END
+FieldSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/FieldSet.java
+END
+MessageLite.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/MessageLite.java
+END
+LazyStringList.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/LazyStringList.java
+END
+GeneratedMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/GeneratedMessage.java
+END
+RepeatedFieldBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/RepeatedFieldBuilder.java
+END
+AbstractMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/AbstractMessage.java
+END
+BlockingService.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/BlockingService.java
+END
+CodedOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/CodedOutputStream.java
+END
+Internal.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/Internal.java
+END
+RpcChannel.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/RpcChannel.java
+END
+ServiceException.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/ServiceException.java
+END
+UnknownFieldSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/UnknownFieldSet.java
+END
+GeneratedMessageLite.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/GeneratedMessageLite.java
+END
+UnmodifiableLazyStringList.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/UnmodifiableLazyStringList.java
+END
+RpcUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/RpcUtil.java
+END
+DescriptorProtos.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/DescriptorProtos.java
+END
+AbstractMessageLite.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/AbstractMessageLite.java
+END
+BlockingRpcChannel.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/BlockingRpcChannel.java
+END
+RpcController.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/RpcController.java
+END
+DynamicMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/DynamicMessage.java
+END
+ProtocolMessageEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/ProtocolMessageEnum.java
+END
+SingleFieldBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/SingleFieldBuilder.java
+END
+MessageOrBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/MessageOrBuilder.java
+END
+TextFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/google/protobuf/TextFormat.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/UX-CoE-Team/!svn/ver/2981/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/datasource
+END
+DataSourceListElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/UX-CoE-Team/!svn/ver/3899/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/datasource/DataSourceListElement.java
+END
+DataSourceMappedUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/datasource/DataSourceMappedUser.java
+END
+Wrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/UX-CoE-Team/!svn/ver/2123/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/datasource/Wrapper.java
+END
+DataSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/UX-CoE-Team/!svn/ver/3899/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/datasource/DataSource.java
+END
+DataSourceHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/UX-CoE-Team/!svn/ver/2635/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/datasource/DataSourceHelper.java
+END

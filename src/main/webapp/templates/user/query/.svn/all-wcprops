@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/UX-CoE-Team/!svn/ver/4214/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/templates/user/query
+END
+temporalCharOpTpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/UX-CoE-Team/!svn/ver/2201/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/templates/user/query/temporalCharOpTpl.html
+END
+temporalPatternOpTpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/UX-CoE-Team/!svn/ver/2457/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/templates/user/query/temporalPatternOpTpl.html
+END
+filterOpTpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/UX-CoE-Team/!svn/ver/2617/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/templates/user/query/filterOpTpl.html
+END
+aggregationOpTpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/UX-CoE-Team/!svn/ver/2201/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/templates/user/query/aggregationOpTpl.html
+END
+queryGraphTpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/UX-CoE-Team/!svn/ver/2429/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/templates/user/query/queryGraphTpl.html
+END
+groupingOpTpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/UX-CoE-Team/!svn/ver/2201/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/templates/user/query/groupingOpTpl.html
+END
+spatialCharOpTpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/UX-CoE-Team/!svn/ver/2201/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/templates/user/query/spatialCharOpTpl.html
+END
+spatialPatternOpTpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/UX-CoE-Team/!svn/ver/2457/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/templates/user/query/spatialPatternOpTpl.html
+END
+registerQueryTpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/UX-CoE-Team/!svn/ver/4214/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/templates/user/query/registerQueryTpl.html
+END

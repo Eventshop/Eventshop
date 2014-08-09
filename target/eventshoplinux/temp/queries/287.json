@@ -1,0 +1,479 @@
+{"_id": {
+            "inc": 1185981237,
+            "machine": 1436206513,
+            "timeSecond": 1394480949,
+            "new": false,
+            "time": 1394480949000
+        },
+        "theme": "PM2_5_daily",
+        "startTime": 1386662400000,
+        "endTime": 1386748800000,
+        "startTimeStr": "2013-12-10 00:00:00",
+        "endTimeStr": "2013-12-11 00:00:00",
+        "latUnit": 0.2,
+        "longUnit": 0.2,
+        "swLat": 37.6,
+        "swLong": -122.4,
+        "neLat": 40,
+        "neLong": -120.8,
+        "row": 12,
+        "col": 8,
+        "min": 14.5,
+        "max": 76.3,
+		
+		"sttBoxGeoJson": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    -121.60000000000001,
+                                    40
+                                ],
+                                [
+                                    -121.60000000000001,
+                                    40.2
+                                ],
+                                [
+                                    -121.4,
+                                    40.2
+                                ],
+                                [
+                                    -121.4,
+                                    40
+                                ]
+                            ]
+                        ]
+                    },
+                    "properties": {
+                        "theme": "PM2_5_daily",
+                        "value": 5.8
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    -122,
+                                    39.8
+                                ],
+                                [
+                                    -122,
+                                    40
+                                ],
+                                [
+                                    -121.8,
+                                    40
+                                ],
+                                [
+                                    -121.8,
+                                    39.8
+                                ]
+                            ]
+                        ]
+                    },
+                    "properties": {
+                        "theme": "PM2_5_daily",
+                        "value": 60.8
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    -121.80000000000001,
+                                    39.8
+                                ],
+                                [
+                                    -121.80000000000001,
+                                    40
+                                ],
+                                [
+                                    -121.60000000000001,
+                                    40
+                                ],
+                                [
+                                    -121.60000000000001,
+                                    39.8
+                                ]
+                            ]
+                        ]
+                    },
+                    "properties": {
+                        "theme": "PM2_5_daily",
+                        "value": 66.6
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    -121.60000000000001,
+                                    39.8
+                                ],
+                                [
+                                    -121.60000000000001,
+                                    40
+                                ],
+                                [
+                                    -121.4,
+                                    40
+                                ],
+                                [
+                                    -121.4,
+                                    39.8
+                                ]
+                            ]
+                        ]
+                    },
+                    "properties": {
+                        "theme": "PM2_5_daily",
+                        "value": 5.8
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    -122.2,
+                                    39.4
+                                ],
+                                [
+                                    -122.2,
+                                    39.6
+                                ],
+                                [
+                                    -122,
+                                    39.6
+                                ],
+                                [
+                                    -122,
+                                    39.4
+                                ]
+                            ]
+                        ]
+                    },
+                    "properties": {
+                        "theme": "PM2_5_daily",
+                        "value": 6.4
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    -122,
+                                    39.4
+                                ],
+                                [
+                                    -122,
+                                    39.6
+                                ],
+                                [
+                                    -121.8,
+                                    39.6
+                                ],
+                                [
+                                    -121.8,
+                                    39.4
+                                ]
+                            ]
+                        ]
+                    },
+                    "properties": {
+                        "theme": "PM2_5_daily",
+                        "value": 6.4
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    -121.80000000000001,
+                                    39.4
+                                ],
+                                [
+                                    -121.80000000000001,
+                                    39.6
+                                ],
+                                [
+                                    -121.60000000000001,
+                                    39.6
+                                ],
+                                [
+                                    -121.60000000000001,
+                                    39.4
+                                ]
+                            ]
+                        ]
+                    },
+                    "properties": {
+                        "theme": "PM2_5_daily",
+                        "value": 22.8
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    -121.60000000000001,
+                                    39.4
+                                ],
+                                [
+                                    -121.60000000000001,
+                                    39.6
+                                ],
+                                [
+                                    -121.4,
+                                    39.6
+                                ],
+                                [
+                                    -121.4,
+                                    39.4
+                                ]
+                            ]
+                        ]
+                    },
+                    "properties": {
+                        "theme": "PM2_5_daily",
+                        "value": 22.8
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    -122.2,
+                                    39.2
+                                ],
+                                [
+                                    -122.2,
+                                    39.400000000000006
+                                ],
+                                [
+                                    -122,
+                                    39.400000000000006
+                                ],
+                                [
+                                    -122,
+                                    39.2
+                                ]
+                            ]
+                        ]
+                    },
+                    "properties": {
+                        "theme": "PM2_5_daily",
+                        "value": 6.4
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    -122,
+                                    39.2
+                                ],
+                                [
+                                    -122,
+                                    39.400000000000006
+                                ],
+                                [
+                                    -121.8,
+                                    39.400000000000006
+                                ],
+                                [
+                                    -121.8,
+                                    39.2
+                                ]
+                            ]
+                        ]
+                    },
+                    "properties": {
+                        "theme": "PM2_5_daily",
+                        "value": 6.4
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    -122.4,
+                                    38
+                                ],
+                                [
+                                    -122.4,
+                                    38.2
+                                ],
+                                [
+                                    -122.2,
+                                    38.2
+                                ],
+                                [
+                                    -122.2,
+                                    38
+                                ]
+                            ]
+                        ]
+                    },
+                    "properties": {
+                        "theme": "PM2_5_daily",
+                        "value": 26.1
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    -122.4,
+                                    37.8
+                                ],
+                                [
+                                    -122.4,
+                                    38
+                                ],
+                                [
+                                    -122.2,
+                                    38
+                                ],
+                                [
+                                    -122.2,
+                                    37.8
+                                ]
+                            ]
+                        ]
+                    },
+                    "properties": {
+                        "theme": "PM2_5_daily",
+                        "value": 44.8
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    -122.2,
+                                    37.8
+                                ],
+                                [
+                                    -122.2,
+                                    38
+                                ],
+                                [
+                                    -122,
+                                    38
+                                ],
+                                [
+                                    -122,
+                                    37.8
+                                ]
+                            ]
+                        ]
+                    },
+                    "properties": {
+                        "theme": "PM2_5_daily",
+                        "value": 18.7
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    -122,
+                                    37.8
+                                ],
+                                [
+                                    -122,
+                                    38
+                                ],
+                                [
+                                    -121.8,
+                                    38
+                                ],
+                                [
+                                    -121.8,
+                                    37.8
+                                ]
+                            ]
+                        ]
+                    },
+                    "properties": {
+                        "theme": "PM2_5_daily",
+                        "value": 24.1
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    -121.80000000000001,
+                                    37.8
+                                ],
+                                [
+                                    -121.80000000000001,
+                                    38
+                                ],
+                                [
+                                    -121.60000000000001,
+                                    38
+                                ],
+                                [
+                                    -121.60000000000001,
+                                    37.8
+                                ]
+                            ]
+                        ]
+                    },
+                    "properties": {
+                        "theme": "PM2_5_daily",
+                        "value": 24.1
+                    },
+                    "type": "Feature"
+                }
+            ]
+        }
+	}

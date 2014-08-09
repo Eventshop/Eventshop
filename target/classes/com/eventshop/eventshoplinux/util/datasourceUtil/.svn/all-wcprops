@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/UX-CoE-Team/!svn/ver/2635/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/util/datasourceUtil
+END
+DataSourceParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/UX-CoE-Team/!svn/ver/4229/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/util/datasourceUtil/DataSourceParser.java
+END
+DataProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/UX-CoE-Team/!svn/ver/4229/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/util/datasourceUtil/DataProcess.java
+END
+CSVUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/UX-CoE-Team/!svn/ver/2579/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/util/datasourceUtil/CSVUtil.java
+END

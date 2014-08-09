@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/UX-CoE-Team/!svn/ver/2456/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/js/mvc/user/models
+END
+query.js
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/UX-CoE-Team/!svn/ver/2456/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/js/mvc/user/models/query.js
+END
+login.js
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/UX-CoE-Team/!svn/ver/2071/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/js/mvc/user/models/login.js
+END
+datasource.js
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/UX-CoE-Team/!svn/ver/2132/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/js/mvc/user/models/datasource.js
+END
+user.js
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/UX-CoE-Team/!svn/ver/2189/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/js/mvc/user/models/user.js
+END
+session.js
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/UX-CoE-Team/!svn/ver/2085/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/webapp/js/mvc/user/models/session.js
+END

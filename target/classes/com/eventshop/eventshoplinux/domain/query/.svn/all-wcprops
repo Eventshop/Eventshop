@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/UX-CoE-Team/!svn/ver/2123/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/query
+END
+PeriodicParameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/query/PeriodicParameter.java
+END
+Query.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/query/Query.java
+END
+QueryHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/query/QueryHelper.java
+END
+SpatialMatchGaussianParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/query/SpatialMatchGaussianParam.java
+END
+SpatialMatchLinearParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/query/SpatialMatchLinearParam.java
+END
+ExponentialParameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/query/ExponentialParameter.java
+END
+QueryDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/UX-CoE-Team/!svn/ver/2123/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/query/QueryDTO.java
+END
+QueryRunnable.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/UX-CoE-Team/!svn/ver/4229/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/query/QueryRunnable.java
+END
+TemporalMatchLinearParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/query/TemporalMatchLinearParam.java
+END
+QueryMetaDataDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/UX-CoE-Team/!svn/ver/1996/trunk/EventShop/releases/releaseDec/eventshoplinux/src/main/java/com/eventshop/eventshoplinux/domain/query/QueryMetaDataDTO.java
+END

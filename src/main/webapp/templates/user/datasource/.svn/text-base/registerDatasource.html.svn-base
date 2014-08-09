@@ -1,0 +1,70 @@
+<table class="table table-bordered sortable" id="datasourceTable">
+	<thead>
+		<tr>
+			<th>DSID</th>
+			<th>DS Name</th>
+			<th>Status</th>
+			<th><input type="checkbox" onClick="toggle(this)" /><br/></th>
+		</tr>
+	</thead>
+	<tbody>
+		<% for (var i = 0; i < Data.length; i++) { %>
+
+		<tr>
+			<td><%=Data[i].srcID%></td>
+			<td><div style="width:55px;word-wrap:break-word;"><span id="<%=Data[i].srcID%>"
+				style="text-decoration: under-line; color: blue; cursor: pointer;"><%=Data[i].srcName%></span></div>
+			</td>
+			<td><%=Data[i].status%></td>
+
+			<td><% if(Data[i].control == 0) {%> <!--<a
+				class="btn btn-small btn-inverse h16" href="#"><img id="ds_play_<%=Data[i].srcID%>"
+					class="img_class" name="<%=Data[i].srcID%>" src="imgs/play_32.png">
+			</a>---->
+			<input type="checkbox" name="cboxDS[]" value="<%=Data[i].srcID%>" id="regds" >
+			
+			 <% }else{ %> <a class="btn btn-small btn-inverse h16" href="#"><img
+					id="ds_stop_<%=Data[i].srcID%>" class="img_class_stop" name="<%=Data[i].srcID%>"
+					src="imgs/stop_32.png">
+			</a> <% } %></td>
+		</tr>
+
+		<% } %>
+		
+		<div id="playDS" style="padding:5px;">
+		<a	class="btn btn-small btn-inverse h16" href="#"><img id="ds_play"
+					class="img_class" name="" src="imgs/play_32.png">
+			</a>
+			<a class="btn btn-small btn-inverse h16" href="#"><img id="ds_stop" name="" class="img_class_stop" src="imgs/stop_32.png"></a>
+		</div>
+		
+	</tbody>
+
+</table>
+<script type="text/javascript">
+	//Pagination for DS
+	var pager = new Pager('datasourceTable', 10);
+	pager.init();
+	pager.showPageNav('pager', 'pagination');
+	pager.showPage(1);
+	
+	$(document).on("click","#ds_play",function(){
+		$("#imageStatus").attr('src',"imgs/hourglass.png");
+		
+		 //$("#uscon").slideDown();
+		
+		mapDataLoader(this);
+	});
+</script>
+
+
+
+<script type="text/javascript">
+function toggle(source) {
+  checkboxes = document.getElementsByName('cboxDS[]');
+  for(var i=0, n=checkboxes.length;i<n;i++) {
+    checkboxes[i].checked = source.checked;
+  }
+}
+
+</script>

@@ -1,0 +1,738 @@
+<script>
+$(function() {
+//$( "#accordion" ).accordion();
+
+$("#accordion").accordion({
+    active: true,
+    collapsible: true,
+    autoHeight: false,
+    navigation: true
+    
+});
+});
+</script>
+ <script>
+  $(function() {
+  
+    var availableTags = [
+      "Name2",
+      "Name3",
+      "Name4",
+      "Name5",
+      "Name6"
+     ];
+    
+    $( "#regquerySearch" ).autocomplete({
+      source: availableTags
+    });
+  });
+  </script>
+<script>
+  $(function() {
+  
+    var availableTags = [
+      "Name2",
+      "Name3",
+      "Name4",
+      "Name5",
+      "Name6"
+     ];
+    
+    $( "#dsSearch" ).autocomplete({
+      source: availableTags
+    });
+  });
+  </script>
+	
+<div id="main">
+     <div class="navbar navbar-inverse navbar-fixed-top">
+	 
+	<div class="navbar-inner">
+ 		<div class="container" >
+			
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<i class="icon-cog"></i>
+			</a>
+			
+						
+			<div class="nav-collapse collapse">
+			
+			<ul class="nav pull-right">
+				<li class="dropdown">
+						
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" onclick="logout()">
+							Logout
+						</a>
+		
+					</li>
+				
+				</ul>
+			
+			
+			<ul class="nav pull-right">
+			<li class="dropdown">
+						
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="icon-cog"></i>
+							Settings
+							<b class="caret"></b>
+						</a>
+						
+						<ul class="dropdown-menu">
+							<li><a href="javascript:;">Account Settings</a></li>
+							<li><a href="javascript:;">Privacy Settings</a></li>
+							<li class="divider"></li>
+							<li><a href="javascript:;">Help</a></li>
+						</ul>
+					</li>
+			
+											
+				</ul>
+				
+												
+			</div><!--/.nav-collapse -->	
+	
+		</div> <!-- /container -->
+		
+	</div> <!-- /navbar-inner -->
+	
+</div> <!-- /navbar -->
+    
+  
+    
+<div class="main">
+
+    <div class="container" style="margin-top:30px">
+
+      <div class="row">
+      	
+      	<div class="span5" style="height:100%">
+        
+        <div class="widget">
+				
+				 <div class="widget-header">
+				 <h3>Registered Queries</h3>
+          
+		    
+				</div> <!-- /widget-header -->
+				<div class="widget-content" >
+				<div>
+		<table>
+		<tr>
+		<td>
+		<input name="filter" onkeyup="filter(this, 'queryTable', 1)" type="text" placeholder="Query Name" style="width:90%" id="regquerySearch" onkeypress="mapChangePress(event)">
+		</td>
+		<td>
+		<select id = "IdList" style="width:105%">
+					<option value = "select">ID</option>
+					<option value = "d1">D1</option>
+					<option value = "d2">D2</option>
+					<option value = "d3">D3</option>
+					</select>
+		</td>
+		</tr>
+</table>		
+			</div>	
+<div id="queryTableContainer"></div>	
+					
+<div id="paginationQ"></div>	
+					
+				</div> <!-- /widget-content -->	
+				
+				<div class="widget-header" style="margin-top:2%;">
+				 <h5 style="margin-top:3%;margin-left:3%">Register Data Source<img src='imgs/add.jpg' style="height:18px;width:16;padding-left:3px" id="imgaddDS" alt="Add Data Source" title="Add Data Source">
+				 <img src='imgs/view.jpg' style="height:18px;width:16" id="viewDSimg" title="View Data Source" alt="View Data Source" onclick="viewClickImage()"></h5>
+				 
+          		</div> <!-- /widget-header -->
+				<div class="widget-content" style="padding: 15px 5px;">
+				
+
+<div>
+		<table align="center">
+		<tr>
+		<td>
+		<input name="filter" onkeyup="filter(this, 'datasourceTable', 1)" type="text" placeholder="Data Source Name" style="width:90%" id="dsSearch">
+		</td>
+		<td>
+		<select id = "IdList" style="width:105%">
+					<option value = "select">ID</option>
+					<option value = "d1">D1</option>
+					<option value = "d2">D2</option>
+					<option value = "d3">D3</option>
+					</select>
+		</td>
+		</tr>
+</table>		
+</div>
+
+<div id="dsTableContainer"></div>				
+
+<div id="pagination"></div>			
+					
+</div> <!-- /widget-content -->	
+			
+				
+				
+			
+			</div> <!-- /widget -->
+           		
+	    </div> <!-- /span5 -->
+
+<div class="span9">	
+<div id="tabs" style="margin-bottom:2%">
+  <ul style="background:#aad2fa">
+  
+    <li><a href="#tabs-1">Filter<img src='imgs/filter.png' style="height:32px;width:32"></a></li>
+    <li><a href="#tabs-2">Group<img src='imgs/grouping.png' style="height:32px;width:32"></a></li>
+    <li><a href="#tabs-3">Aggregation<img src='imgs/aggregation.png' style="height:32px;width:32"></a></li>
+	<li><a href="#tabs-4">Spatial Pattern<img  src='imgs/spm.png'  style="height:32px;width:32"></a></li>
+	<li><a href="#tabs-5">Temporal Pattern<img src='imgs/timeline.png' style="height:32px;width:32"></a></li>
+	<li><a href="#tabs-6">Spatial Char<img  src='imgs/spchar.png'  style="height:32px;width:32"></a></li>
+	<li><a href="#tabs-7">Temporal Char<img src='imgs/tpchar.png' style="height:32px;width:32"></a></li>
+	
+  </ul>
+  
+  <div id="tabs-1"></div>
+    
+  <div id="tabs-2"></div>
+  
+  <div id="tabs-3"></div>
+  
+  <div id="tabs-4"></div>
+
+  <div id="tabs-5"></div>
+ 
+  <div id="tabs-6"></div>
+  
+  <div id="tabs-7"></div> 
+ 
+</div>
+
+
+<div class="widget" id="accordion" style="margin-bottom:2%">
+<div class="widget-header">
+<h3>Query Graph</h3>
+</div> <!-- /widget-header -->
+				
+<div class="widget-content">
+<div class="stats" id="flowGraph">
+<!-- query graph will be coming here ! -->
+</div> <!-- /stats -->
+</div> <!-- /widget-content -->
+</div>
+
+
+<div class="widget">
+		
+								
+			<div class="widget  widget-table action-table">
+					
+                		<div class="widget">
+					
+				<div class="widget-header">
+					<h3 id="change">Map</h3>
+				<!--	<select id = "chartList" style="height:70%;width:30%">
+					<option value = "select">Select Chart</option>
+					<option value = "bar">Bar Chart</option>
+					<option value = "line">Line Chart</option>
+					<option value = "pie">Pie Chart</option>
+					</select> -->
+				</div> <!-- /widget-header -->
+				
+				<div class="widget-content">
+				
+					<div id="uscon" style="width: 200px;"></div>	
+				
+				</div> <!-- /widget-content -->
+				
+				
+				
+					
+			</div> <!-- /widget -->	
+
+      			</div> <!-- /widget -->
+								
+	      </div> <!-- /span6 -->
+			  
+      	
+		<div>
+	 </div>
+		
+		
+      </div> <!-- /row -->
+	 
+	  	  
+    </div> <!-- /container -->
+
+    
+</div> <!-- /main -->
+ <div id="basic-modal-content" title="Basic dialog" >
+ 	<div id="DSTabs" style="margin-bottom:2%">
+  		<ul style="background:#aad2fa">
+    		<li><a href="#dsConfig">Data Source Configuration<img src='imgs/filter.png' style="height:32px;width:32"></a></li>
+    		<li><a href="#initConfig">Initial Resolution<img src='imgs/grouping.png' style="height:32px;width:32"></a></li>
+    		<li><a href="#finalConfig">Final Resolution<img src='imgs/aggregation.png' style="height:32px;width:32"></a></li>
+  		</ul>
+  		<form name="addDataSourceForm" id="addDataSourceForm" enctype="multipart/form-data" action="#" method="POST"  >
+	  	<div id="dsConfig">
+			<div>
+				<table>
+			      <tr>
+			      <td><label ><span style="color:red">* </span>Theme</label></td>
+			      <td><input type="text"  name="dsTheme" id="dsTheme" style="margin-left:5%" /></td>
+			      </tr>
+			      <tr>
+			      <td><label ><span style="color:red">* </span>Name</label></td>
+			      <td><input type="text" name="dsName" id="dsName" style="margin-left:5%" /></td>
+			      </tr>
+			       <tr>
+			      <td><label ><span style="color:red">* </span>URL/Path</label></td>
+			      <td><input type="text" name="dsPath" id="dsPath" style="margin-left:5%" /></td>
+			      </tr>
+				   <tr>
+			      <td><label >Data Format</label></td>
+			      <td>
+			      <select id="dataFormat" name="dsDataFormat" style="margin-left:5%" onchange="getDataFormatInfo(this.value)">
+				      <option value="select"> Select</option>
+				      <option value="stream"> Data Stream</option>
+				      <option value="visual"> Visual Image</option>
+				      <option value="csv"> CSV File</option>
+			      </select>
+			      </td>
+			      </tr>
+			      <tr><td colspan="2">
+			      <input type="hidden" name="dataSourceId" id="dataSourceId" value="0">
+			      <input type="hidden" name="wrapperId" id="wrapperId" value="0">
+			      <div id="dataFormatData">
+			       
+			      
+			      </div>
+			      </td></tr>
+				 	    	
+			      </table>
+	      	</div>	  	
+	  	</div>
+		<div id="initConfig">
+		  	<div>
+			  <table>
+		      <tr>
+		      <td><label ><span style="color:red">* </span>Time Window(in secss)</label></td>
+		      <td><input type="text" name="dsTime" id="dsTime" style="margin-left:5%" /></td>
+		      </tr>
+		      <tr>
+		      <td><label >Synchronize at nth Sec</label></td>
+		      <td><input type="text" name="dsSync" id="dsSync" style="margin-left:5%" /></td>
+		      </tr>
+		       <tr>
+		      <td><label ><span style="color:red">* </span>Unit of Latitude</label></td>
+		      <td><input type="text" name="dsUnitLat" id="dsUnitLat" style="margin-left:5%"  /></td>
+		      </tr>
+			   <tr>
+		      <td><label ><span style="color:red">* </span>Unit of Longitude</label></td>
+		      <td>
+		      <input type="text" name="dsUnitLong" id="dsUnitLong" style="margin-left:5%" />
+		      </td>
+		      </tr>
+		      <tr>
+		      <td><label ><span style="color:red">* </span>Southwest of Latitude</label></td>
+		      <td>
+		      <input type="text" name="dsSouthLat" id="dsSouthLat" style="margin-left:5%"/>
+		      </td>
+		      </tr>
+		      <tr>
+		      <td><label ><span style="color:red">* </span>Southwest of Longitude</label></td>
+		      <td>
+		      <input type="text" name="dsSouthLong" id="dsSouthLong" style="margin-left:5%" />
+		      </td>
+		      </tr>
+		      <tr>
+		      <td><label ><span style="color:red">* </span>Northeast of Latitude</label></td>
+		      <td>
+		      <input type="text" name="dsNorthLat" id="dsNorthLat" style="margin-left:5%"/>
+		      </td>
+		      </tr>
+		      <tr>
+		      <td><label ><span style="color:red">* </span>Northeast of Longitude</label></td>
+		      <td>
+		      <input type="text" name="dsNorthLong" id="dsNorthLong" style="margin-left:5%" />
+		      </td>
+		      </tr>
+		      </table>
+			</div>
+			<!-- <div >
+			  <input type="button" value="Add" style="margin-top:5%;" id="addDataSourceBtn"/>
+		      <input type="button" value="Cancel" style="margin-top:5%;" id="addDataSourceCancel"/>
+		    </div> -->
+	    </div>
+		<div id="finalConfig">
+		  	<div>
+			  <table>
+		      <tr>
+		      <td><label ><span style="color:red">* </span>Time Window(in sec)</label></td>
+		      <td><input type="text" name="dsTime" id="dsFTime" style="margin-left:5%" /></td>
+		      </tr>
+		      <tr>
+		      <td><label >Synchronize at nth Sec</label></td>
+		      <td><input type="text" name="dsSync" id="dsFSync" style="margin-left:5%"/></td>
+		      </tr>
+		       <tr>
+		      <td><label ><span style="color:red">* </span>Unit of Latitude</label></td>
+		      <td><input type="text" name="dsUnitLat" id="dsFUnitLat" style="margin-left:5%"  /></td>
+		      </tr>
+			   <tr>
+		      <td><label ><span style="color:red">* </span>Unit of Longitude</label></td>
+		      <td>
+		      <input type="text" name="dsUnitLong" id="dsFUnitLong" style="margin-left:5%" />
+		      </td>
+		      </tr>
+		      <tr>
+		      <td><label ><span style="color:red">* </span>Southwest of Latitude</label></td>
+		      <td>
+		      <input type="text" name="dsSouthLat" id="dsFSouthLat" style="margin-left:5%" />
+		      </td>
+		      </tr>
+		      <tr>
+		      <td><label ><span style="color:red">* </span>Southwest of Longitude</label></td>
+		      <td>
+		      <input type="text" name="dsSouthLong" id="dsFSouthLong" style="margin-left:5%" />
+		      </td>
+		      </tr>
+		      <tr>
+		      <td><label ><span style="color:red">* </span>Northeast of Latitude</label></td>
+		      <td>
+		      <input type="text" name="dsNorthLat" id="dsFNorthLat" style="margin-left:5%" />
+		      </td>
+		      </tr>
+		      <tr>
+		      <td><label ><span style="color:red">* </span>Northeast of Longitude</label></td>
+		      <td>
+		      <input type="text" name="dsNorthLong" id="dsFNorthLong" style="margin-left:5%" />
+		      </td>
+		      </tr>
+		      </table>
+			</div>
+			<div >
+			  <input type="button" value="Add" style="margin-top:5%;" id="addDataSourceBtn"/>
+		      <input type="button" value="Cancel" style="margin-top:5%;" id="addDataSourceCancel"/>
+		    </div>
+	    </div>
+  	</div>
+ </div> 
+ <div id="data" style="display:none;">
+		<table>
+		<tr>
+			<td colspan="2">
+		  		<strong>Bag of Words </strong>
+		  	</td>
+		</tr>
+		<tr>
+			<td >
+		  		<label>Supported</label>
+		  	</td>
+		  	<td> 
+			  <select style="margin-left:5%" name="dfSupport" id="dfSupport">
+			  	<option value="Twitter">Twitter</option>
+			  	<option value="Flickr">Flickr</option>
+			  	<option value="Simulator">Simulator</option>
+			  </select>
+		  	</td>
+		</tr>
+		<tr>
+			<td colspan="2" >
+		  		<textarea name="dfTextArea"  id="dfTextArea" cols="15" rows="5" style="margin-left:5%"></textarea>
+		  	</td>
+		</tr>
+		</table>
+	  </div>	    
+	  <div id="visual" style="display:none;">
+		  <table>
+		  <tr>
+		  <td colspan=2>
+		  <strong>Visual Upload Parameters</strong>
+		  </td>
+		  </tr>
+		  <tr>
+		  <td >
+		  <label>Translataion Matrix Path</label>
+		  </td>
+		  <td>
+		  <div id="viewTMPData" style="display:none;"><input type="button" name="viewTMP" id="viewTMP" value="View"></div>
+		  <div id="addTMPData" style="display:none;"><input type="file" name="dfTransPath" id="dfTransPath"></div>
+		  </td>
+		  </tr>
+		  <tr><td colspan="2"><div id="tmpData" style="display:none;"> </div></td></tr>
+		  <tr>
+		  <td>
+		  <label>Color Matrix Path</label>
+		  </td>
+		  <td> 
+ 		  <div id="viewCMPData" style="display:none;"><input type="button" name="viewCMP" id="viewCMP" value="View"></div>
+		  <div id="addCMPData" style="display:none;"><input type="file" name="dfColorPath" id="dfColorPath" style="margin-left:5%"></div> 	  	
+		  </td>
+		  </tr>
+		  <div id="cmpData"> </div>
+		  <tr>
+		  <td >
+		  <label>Mask Path</label>
+		  </td>
+		  <td>
+		  <div id="viewMPData" style="display:none;"><input type="button" name="viewMP" id="viewMP" value="View"></div>
+		  <div id="addMPData" style="display:none;">	<input type="file" name="dfMaskPath" id="dfMaskPath" style="margin-left:5%"> </div>
+		  </td>
+		  </tr>
+		  <div id="mpData"></div>
+		  <tr>
+		  <td> <label>Ignore Colors after</label></td>
+		  <td >
+		  <input type="text" name="dfIgnoreColor" id="dfIgnoreColor" style="margin-left:5%" >
+		  </td>
+		  </tr>
+		  </table>
+	  </div>
+	  <div id="csv" style="display:none;">
+		  <table>
+		  <tr>
+		  <td colspan="2">
+			<strong>Upload CSV File</strong> 
+		  </td>
+		  </tr>
+		  <tr>
+		  <td colspan="2">
+		  <input type="file" name="dfCsvFile" id="dfCsvFile" style="margin-left:5%">
+		  </td>
+		  </tr>
+		  </table>
+	  </div>
+</form>	   
+<!-- View Data Source Code Starts Here -->
+<div id="basic-modal-content1" title="Basic dialog" >
+ 	<div id="DSTabs1" style="margin-bottom:2%">
+  		<ul style="background:#aad2fa">
+    		<li><a href="#dsConfig">Data Source Configuration<img src='imgs/filter.png' style="height:32px;width:32"></a></li>
+    		<li><a href="#initConfig">Initial Resolution<img src='imgs/grouping.png' style="height:32px;width:32"></a></li>
+    		<li><a href="#finalConfig">Final Resolution<img src='imgs/aggregation.png' style="height:32px;width:32"></a></li>
+  		</ul>
+  		<form name="viewDataSourceForm" id="viewDataSourceForm" enctype="multipart/form-data" action="#" method="POST"  >
+	  	<div id="dsConfig">
+			<div>
+				<table>
+			      <tr>
+			      <td><label ><span style="color:red">* </span>Theme</label></td>
+			      <td><input type="text"  name="vdsTheme" id="vdsTheme" style="margin-left:5%" /></td>
+			      </tr>
+			      <tr>
+			      <td><label ><span style="color:red">* </span>Name</label></td>
+			      <td><input type="text" name="vdsName" id="vdsName" style="margin-left:5%" /></td>
+			      </tr>
+			       <tr>
+			      <td><label ><span style="color:red">* </span>URL/Path</label></td>
+			      <td><input type="text" name="vdsPath" id="vdsPath" style="margin-left:5%" /></td>
+			      </tr>
+				   <tr>
+			      <td><label >Data Formattt</label></td>
+			      <td>
+			      <select id="viewDataFormat" name="viewDSDataFormat" style="margin-left:5%" onchange="ViewDataFormatInfo(this.value)">
+				      <option value="select"> Select</option>
+				      <option value="stream"> Data Stream</option>
+				      <option value="visual"> Visual Image</option>
+				      <option value="csv"> CSV File</option>
+			      </select>
+			      </td>
+			      </tr>
+			      <tr><td colspan="2">
+			      <div id="viewDSDataFormat">
+			       <input type="hidden" name="wrapperId" id="wrapperId" value="0">
+			      
+			      </div>
+			      </td></tr>
+				 	    	
+			      </table>
+	      	</div>	  	
+	  	</div>
+		<div id="initConfig">
+		  	<div>
+			  <table>
+		      <tr>
+		      <td><label ><span style="color:red">* </span>Time Window(in sec)</label></td>
+		      <td><input type="text" name="vdsTime" id="vdsTime" style="margin-left:5%" /></td>
+		      </tr>
+		      <tr>
+		      <td><label >Synchronize at nth Sec</label></td>
+		      <td><input type="text" name="vdsSync" id="vdsSync" style="margin-left:5%" /></td>
+		      </tr>
+		       <tr>
+		      <td><label ><span style="color:red">* </span>Unit of Latitude</label></td>
+		      <td><input type="text" name="vdsUnitLat" id="vdsUnitLat" style="margin-left:5%" /></td>
+		      </tr>
+			   <tr>
+		      <td><label ><span style="color:red">* </span>Unit of Longitude</label></td>
+		      <td>
+		      <input type="text" name="vdsUnitLong" id="vdsUnitLong" style="margin-left:5%" />
+		      </td>
+		      </tr>
+		      <tr>
+		      <td><label ><span style="color:red">* </span>Southwest of Latitude</label></td>
+		      <td>
+		      <input type="text" name="vdsSouthLat" id="vdsSouthLat" style="margin-left:5%" />
+		      </td>
+		      </tr>
+		      <tr>
+		      <td><label ><span style="color:red">* </span>Southwest of Longitude</label></td>
+		      <td>
+		      <input type="text" name="vdsSouthLong" id="vdsSouthLong" style="margin-left:5%"/>
+		      </td>
+		      </tr>
+		      <tr>
+		      <td><label ><span style="color:red">* </span>Northeast of Latitude</label></td>
+		      <td>
+		      <input type="text" name="vdsNorthLat" id="vdsNorthLat" style="margin-left:5%" />
+		      </td>
+		      </tr>
+		      <tr>
+		      <td><label ><span style="color:red">* </span>Northeast of Longitude</label></td>
+		      <td>
+		      <input type="text" name="vdsNorthLong" id="vdsNorthLong" style="margin-left:5%" />
+		      </td>
+		      </tr>
+		      </table>
+			</div>
+			<!-- <div >
+			  <input type="button" value="vAdd" style="margin-top:5%;" id="addDataSourceBtn"/>
+		      <input type="button" value="vCancel" style="margin-top:5%;" id="addDataSourceCancel"/>
+		    </div> -->
+	    </div>
+
+  	</div>
+ </div> 
+ <div id="viewData" style="display:none;">
+		<table>
+		<tr>
+			<td colspan="2">
+		  		<strong>Bag of Words </strong>
+		  	</td>
+		</tr>
+		<tr>
+			<td >
+		  		<label>Supported</label>
+		  	</td>
+		  	<td> 
+			  <select style="margin-left:5%" name="vdfSupport" id="vdfSupport">
+			  	<option value="Twitter">Twitter</option>
+			  	<option value="Flickr">Flickr</option>
+			  	<option value="Simulator">Simulator</option>
+			  </select>
+		  	</td>
+		</tr>
+		<tr>
+			<td colspan="2" >
+		  		<textarea name="vdfTextArea"  id="vdfTextArea" cols="15" rows="5" style="margin-left:5%"></textarea>
+		  	</td>
+		</tr>
+		</table>
+	  </div>	    
+	  <div id="viewVisual" style="display:none;">
+		  <table>
+		  <tr>
+		  <td colspan=2>
+		  <strong>Visual Upload Parameters</strong>
+		  </td>
+		  </tr>
+		  <tr>
+		  <td >
+		  <label>Translataion Matrix Path</label>
+		  </td>
+		  <td> 
+		  	<input type="file" name="vdfTransPath" id="vdfTransPath" style="margin-left:5%"> 	  	
+		  </td>
+		  </tr>
+		  <tr>
+		  <td >
+		  <label>Color Matrix Path</label>
+		  </td>
+		  <td> 
+		  	<input type="file" name="vdfColorPath" id="vdfColorPath" style="margin-left:5%"> 	  	
+		  </td>
+		  </tr>
+		  <tr>
+		  <td >
+		  <label>Mask Path</label>
+		  </td>
+		  <td> 
+		  	<input type="file" name="vdfMaskPath" id="vdfMaskPath" style="margin-left:5%"> 	  	
+		  </td>
+		  </tr>
+		  <tr>
+		  <td> <label>Ignore Colors after</label></td>
+		  <td >
+		  <input type="text" name="vdfIgnoreColor" id="vdfIgnoreColor" style="margin-left:5%" >
+		  </td>
+		  </tr>
+		  </table>
+	  </div>
+	  <div id="viewCsv" style="display:none;">
+		  <table>
+		  <tr>
+		  <td colspan="2">
+			<strong>Upload CSV File</strong> 
+		  </td>
+		  </tr>
+		  <tr>
+		  <td colspan="2">
+		  <input type="file" name="vdfCsvFile" id="vdfCsvFile" style="margin-left:5%">
+		  </td>
+		  </tr>
+		  </table>
+	  </div>
+</form>	   
+<!-- View Data Source Code Ends Here -->
+
+<div class="extra">
+
+	<div class="container">
+
+		<div class="row">
+			
+			<div class="span3">
+				
+								
+				<ul>
+					<li><a href="javascript:;">About Us</a></li>
+					
+				</ul>
+				
+			</div> <!-- /span3 -->
+			
+			<div class="span3">
+				
+								
+				<ul>
+					<li><a href="javascript:;">Frequently Asked Questions</a></li>
+					
+				</ul>
+				
+			</div> <!-- /span3 -->
+			
+			<div class="span3">
+				
+								
+				<ul>
+					<li><a href="javascript:;">License</a></li>
+					</ul>
+				
+			</div> <!-- /span3 -->
+			
+			<div class="span3">
+				
+								
+				<ul>
+					<li><a href="javascript:;">Consectetur adipisicing</a></li>
+					
+				</ul>
+				
+			</div> <!-- /span3 -->
+			
+		</div> <!-- /row -->
+
+	</div> <!-- /container -->
+
+</div> <!-- /extra -->
